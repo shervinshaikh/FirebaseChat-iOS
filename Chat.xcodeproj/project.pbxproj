@@ -13,6 +13,12 @@
 		F88F2CBF1A967F0A00A0ABC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88F2CBE1A967F0A00A0ABC4 /* Images.xcassets */; };
 		F88F2CC21A967F0A00A0ABC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88F2CC01A967F0A00A0ABC4 /* LaunchScreen.xib */; };
 		F88F2CCE1A967F0A00A0ABC4 /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F2CCD1A967F0A00A0ABC4 /* ChatTests.swift */; };
+		F88F2CD81A967F2300A0ABC4 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2CD71A967F2300A0ABC4 /* Firebase.framework */; };
+		F88F2D121A967F4900A0ABC4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2D111A967F4900A0ABC4 /* Security.framework */; };
+		F88F2D141A967F4E00A0ABC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2D131A967F4E00A0ABC4 /* SystemConfiguration.framework */; };
+		F88F2D161A967F5300A0ABC4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2D151A967F5300A0ABC4 /* CFNetwork.framework */; };
+		F88F2D181A9681B300A0ABC4 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2D171A9681B300A0ABC4 /* libc++.dylib */; };
+		F88F2D1A1A9681BB00A0ABC4 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F2D191A9681BB00A0ABC4 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 		F88F2CC71A967F0A00A0ABC4 /* ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88F2CCC1A967F0A00A0ABC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88F2CCD1A967F0A00A0ABC4 /* ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTests.swift; sourceTree = "<group>"; };
+		F88F2CD71A967F2300A0ABC4 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../../../Shared/Firebase/Frameworks/Firebase.framework; sourceTree = "<group>"; };
+		F88F2D111A967F4900A0ABC4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F88F2D131A967F4E00A0ABC4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F88F2D151A967F5300A0ABC4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F88F2D171A9681B300A0ABC4 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F88F2D191A9681BB00A0ABC4 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F88F2D1B1A96823C00A0ABC4 /* Chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chat-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88F2D1A1A9681BB00A0ABC4 /* libicucore.dylib in Frameworks */,
+				F88F2D181A9681B300A0ABC4 /* libc++.dylib in Frameworks */,
+				F88F2D161A967F5300A0ABC4 /* CFNetwork.framework in Frameworks */,
+				F88F2D141A967F4E00A0ABC4 /* SystemConfiguration.framework in Frameworks */,
+				F88F2D121A967F4900A0ABC4 /* Security.framework in Frameworks */,
+				F88F2CD81A967F2300A0ABC4 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,12 @@
 		F88F2CA91A967F0A00A0ABC4 = {
 			isa = PBXGroup;
 			children = (
+				F88F2D191A9681BB00A0ABC4 /* libicucore.dylib */,
+				F88F2D171A9681B300A0ABC4 /* libc++.dylib */,
+				F88F2D151A967F5300A0ABC4 /* CFNetwork.framework */,
+				F88F2D131A967F4E00A0ABC4 /* SystemConfiguration.framework */,
+				F88F2D111A967F4900A0ABC4 /* Security.framework */,
+				F88F2CD71A967F2300A0ABC4 /* Firebase.framework */,
 				F88F2CB41A967F0A00A0ABC4 /* Chat */,
 				F88F2CCA1A967F0A00A0ABC4 /* ChatTests */,
 				F88F2CB31A967F0A00A0ABC4 /* Products */,
@@ -83,6 +108,7 @@
 				F88F2CBE1A967F0A00A0ABC4 /* Images.xcassets */,
 				F88F2CC01A967F0A00A0ABC4 /* LaunchScreen.xib */,
 				F88F2CB51A967F0A00A0ABC4 /* Supporting Files */,
+				F88F2D1B1A96823C00A0ABC4 /* Chat-Bridging-Header.h */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -336,9 +362,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shared/Firebase/Frameworks,
+				);
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chat/Chat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +380,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shared/Firebase/Frameworks,
+				);
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chat/Chat-Bridging-Header.h";
 			};
 			name = Release;
 		};
